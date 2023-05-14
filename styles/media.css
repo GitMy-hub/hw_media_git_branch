@@ -1,0 +1,140 @@
+@media (min-width:320px) and (max-width:567px) {
+    #app {
+        padding: 0.1rem 0.1rem;
+        font-size: 1rem;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .1rem .1rem;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 3rem;
+    }
+
+    .nav {
+        width: 100%;
+        margin-top: 0.1rem;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 40%;
+    }
+
+    .nav-link {
+        width: 10rem;
+        margin-top: 1rem;
+        font-family: var(--ff-secondary);
+    }
+
+    .product-img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+
+    .table {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .button-wrapper {
+        width: 100%;
+    }
+
+    .banner, p, h4 {
+        display: none;
+    }
+
+}
+
+@media (min-width:567px) and (max-width:768px) {
+    #app {
+        font-size: 1rem;
+    }   
+    .header {
+        display: flex;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 900%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .logo {
+        padding: 3rem;
+    }
+
+    .nav {
+        width: 50%;
+        margin-top: 8rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        width: 10rem;
+        margin-top: 1rem;
+        font-family: var(--ff-secondary);
+    }
+
+    .product-img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 35%;
+    }
+
+    .table {
+        margin-top: 1rem;
+    }
+
+    .button-wrapper {
+        width: 100%;
+    }
+
+    .product-img {
+        margin-top: 1rem;
+        width: 23rem;
+        height: 19rem;
+    }
+
+    .banner, p, h4 {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+
+}

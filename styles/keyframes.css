@@ -2,31 +2,28 @@
 
     0% {
         color : green;
-        transform: scale(1);
         text-shadow: var(--text-shadow-primary) red;       
     }
 
     25% {
        color : red;
-       transform: scale(1.5);
+    
        text-shadow: var(--text-shadow-primary) gold;  
     }
 
     50% {
        color : orange;
-       transform: scale(1);
        text-shadow: var(--text-shadow-primary) forestgreen;  
     }
 
     75% {
        color : blue;
-       transform: scale(1.5);
+    
        text-shadow: var(--text-shadow-primary) wheat;   
     }
 
     100% {
        color : skyblue;
-       transform: scale(1);
        text-shadow: var(--text-shadow-primary) blueviolet;  
     }
 }
@@ -42,6 +39,6 @@
         transform: scale(1.5) ;
         border: 2px solid rgb(0, 113, 128);
         box-shadow: var(--text-shadow-primary) rgb(59, 146, 78);
-        border-radius: 2rem;
+        border-radius: rem;
     }
 }

@@ -25,6 +25,10 @@ tr, th {
     border: 1px solid rgb(226, 219, 219);
 }
 
+p {
+    margin-top: 1rem;
+}
+
 #app {
     background: var(--main-bg);
     font-family: var( --ff-secondary);
@@ -35,7 +39,6 @@ tr, th {
 .header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -43,8 +46,8 @@ tr, th {
     font-size: 4rem;
     color: var(--text-color-primary);
     text-shadow: var(--text-shadow-primary) var(--text-color-primary);
-    transform: scale(1) infinite ease-in-out;
     cursor: pointer;
+    transform: scale(1) infinite ease-in-out;
     transition: 1400ms;
 }
 
@@ -67,20 +70,26 @@ tr, th {
 
 .container {
     display: flex;
-    margin-top: 5rem;
+    justify-content: center;
 }
 
 .main {
-    margin-left: 5rem;
+    width: 80%;
     display: flex;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .product {
-    width: 40%;
+    width: 30%;
 }
 
-.product-title {
+.product-title {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     font-size: 1rem;
 }
@@ -93,16 +102,13 @@ tr, th {
 
 .table {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.table-row, .table-header, .table-value {
-    width: 100%;
 }
 
 .button-wrapper {
     display: flex;
+    width: 18rem;
     justify-content: center;
 }
 
@@ -113,6 +119,11 @@ tr, th {
     padding: .4rem 2.5rem;
 
     animation: btn-animation 1400ms ease-in-out infinite;
+}
+
+.img-banner {
+    width: 100%;
+    height: 15rem;
 }
 
 .footer {
