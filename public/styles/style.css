@@ -1,0 +1,123 @@
+@import url(./variables.css);
+@import url(./keyframes.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset {
+    border: none;
+}
+
+tr, th {
+    padding: .5rem;
+    border: 1px solid rgb(226, 219, 219);
+}
+
+#app {
+    background: var(--main-bg);
+    font-family: var( --ff-secondary);
+    padding: 2rem 5rem; 
+    color: var(--text-color-secondary);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 4rem;
+    color: var(--text-color-primary);
+    text-shadow: var(--text-shadow-primary) var(--text-color-primary);
+    transform: scale(1) infinite ease-in-out;
+    cursor: pointer;
+    transition: 1400ms;
+}
+
+.logo:hover {
+    transform: scale(1.5) rotate(360deg);
+    color: inherit;
+}
+
+.nav {
+    width: 40%;
+    font-family: var(--ff-primary);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    animation: rainbow 1800ms infinite ease-in-out;
+}
+
+.container {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.main {
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 40%;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.product-img {
+    margin-top: 1rem;
+    width: 18rem;
+    height: 15rem;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-row, .table-header, .table-value {
+    width: 100%;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 1rem;
+    background: inherit;
+    border: 1px solid rgb(119, 110, 110);
+    padding: .4rem 2.5rem;
+
+    animation: btn-animation 1400ms ease-in-out infinite;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "montez";
+    src: url(../fonts/Montez/Montez-Regular.ttf);
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-2/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+    --main-bg : linear-gradient(214.02deg , #B75CFF 6.04%, #671AE4 92.95%);
+
+
+    --ff-primary:"montez";
+    --ff-secondary: "montserrat";
+
+    --text-color-primary: aliceblue;
+    --text-color-secondary: rgb(18, 13, 13);
+
+    --text-shadow-primary: 3px 5px 3px;
+    --text-shadow-secondary: 3px 5px 3px;
+}
